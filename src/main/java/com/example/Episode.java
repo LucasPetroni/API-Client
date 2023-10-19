@@ -1,13 +1,8 @@
 package com.example;
 
 public class Episode {
-    String title;
-    String id;
-
-    public Episode(String title, String id) {
-        this.title = title;
-        this.id = id;
-    }
+    private String title;
+    private String id;
 
     public String getTitle() {
         return title;
